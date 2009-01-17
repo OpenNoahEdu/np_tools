@@ -5,8 +5,8 @@ CVS
 *.rej
 *.bak
 *.d
-
-
+*.bin
+*.yaffs2
 
 
 

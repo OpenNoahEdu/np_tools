@@ -1,7 +1,4 @@
 /*
- *
- * Copyright (C) 2008-2009 yajin <yajin@vm-kernel.org>
- *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
  * published by the Free Software Foundation; either version 2 or
@@ -21,9 +18,9 @@
 #ifndef _NANDFLASH_H_
 #define _NANDFLASH_H_
 
-#define PAVO_NAND_PAGE_SIZE   2048
-#define PAVO_NAND_OOB_SIZE     64
-#define PAVO_NAND_PAGES          0x80000
-#define PAVO_NAND_SIZE             0X8000000  		/*does not include oob*/
+#define NAND_PAGE_SIZE 2048
+#define NAND_OOB_SIZE 64
+#define NAND_PAGES 0x80000
+#define NAND_SIZE 0X8000000 /*does not include oob*/
 
 #endif

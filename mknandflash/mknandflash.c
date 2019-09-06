@@ -237,7 +237,7 @@ static int valid_conf()
         printf("rootfs = \t%s\n", rootfs);
         printf("rootfs_start = \t0x%X\n", rootfs_start);
         printf("rootfs_end = \t0x%X\n", rootfs_end);
-        printf("rootfs_obb = \t%d\n", rootfs_oob);
+        printf("rootfs_oob = \t%d\n", rootfs_oob);
         printf("rootfs_add_ecc = \t%d\n", rootfs_add_ecc);
         if (valid_conf_item(rootfs, rootfs_start, rootfs_end))
             return -1;
@@ -248,7 +248,7 @@ static int valid_conf()
         printf("settings = \t%s\n", settings);
         printf("settings_start = \t0x%X\n", settings_start);
         printf("settings_end = \t0x%X\n", settings_end);
-        printf("settings_obb = \t%d\n", settings_oob);
+        printf("settings_oob = \t%d\n", settings_oob);
         printf("settings_add_ecc = \t%d\n", settings_add_ecc);
         if (valid_conf_item(settings, settings_start, settings_end))
             return -1;
@@ -259,7 +259,7 @@ static int valid_conf()
         printf("progfs = \t%s\n", progfs);
         printf("progfs_start = \t0x%X\n", progfs_start);
         printf("progfs_end = \t0x%X\n", progfs_end);
-        printf("progfs_obb = \t%d\n", progfs_oob);
+        printf("progfs_oob = \t%d\n", progfs_oob);
         printf("progfs_add_ecc = \t%d\n", progfs_add_ecc);
         if (valid_conf_item(progfs, progfs_start, progfs_end))
             return -1;
@@ -270,7 +270,7 @@ static int valid_conf()
         printf("datafs = \t%s\n", datafs);
         printf("datafs_start = \t0x%X\n", datafs_start);
         printf("datafs_end = \t0x%X\n", datafs_end);
-        printf("datafs_obb = \t%d\n", datafs_oob);
+        printf("datafs_oob = \t%d\n", datafs_oob);
         printf("datafs_add_ecc = \t%d\n", datafs_add_ecc);
         if (valid_conf_item(datafs, datafs_start, datafs_end))
             return -1;
@@ -281,7 +281,7 @@ static int valid_conf()
         printf("usrfs = \t%s\n", usrfs);
         printf("usrfs_start = \t0x%X\n", usrfs_start);
         printf("usrfs_end = \t0x%X\n", usrfs_end);
-        printf("usrfs_obb = \t%d\n", usrfs_oob);
+        printf("usrfs_oob = \t%d\n", usrfs_oob);
         printf("usrfs_add_ecc = \t%d\n", usrfs_add_ecc);
         if (valid_conf_item(usrfs, usrfs_start, usrfs_end))
             return -1;
@@ -292,7 +292,7 @@ static int valid_conf()
         printf("usrdisk = \t%s\n", usrdisk);
         printf("usrdisk_start = \t0x%X\n", usrdisk_start);
         printf("usrdisk_end = \t0x%X\n", usrdisk_end);
-        printf("usrdisk_obb = \t%d\n", usrdisk_oob);
+        printf("usrdisk_oob = \t%d\n", usrdisk_oob);
         printf("usrdisk_add_ecc = \t%d\n", usrdisk_add_ecc);
         if (valid_conf_item(usrdisk, usrdisk_start, usrdisk_end))
             return -1;
